@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Packages - Qutbi Tours and Holidays</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/packages.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">
+          <h1>Qutbi Tours</h1>
+          <p class="tagline">Established 1998</p>
+        </a>
+      </div>
+      <nav>
+        <button class="mobile-menu-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="packages.html" class="active">Packages</a></li>
+          <li><a href="visa.html">Visa</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Travel Packages</h1>
+        <p>Discover our carefully crafted travel packages for unforgettable journeys</p>
+      </div>
+    </section>
+
+    <section class="packages-filter container">
+      <div class="filter-options">
+        <button class="filter-btn active" data-filter="all">All Packages</button>
+        <button class="filter-btn" data-filter="international">International</button>
+        <button class="filter-btn" data-filter="domestic">Domestic</button>
+        <button class="filter-btn" data-filter="honeymoon">Honeymoon</button>
+        <button class="filter-btn" data-filter="pilgrimage">Pilgrimage</button>
+      </div>
+    </section>
+
+    <section class="packages-grid container">
+      <div class="package-card international" id="dubai">
+        <div class="package-image">
+          <img src="https://i.pinimg.com/736x/df/74/42/df7442bf2ecd6255f42f5442d8ec25be.jpg" alt="Dubai Package">
+          <div class="package-label">Most Popular</div>
+        </div>
+        <div class="package-content">
+          <h3>Dubai Extravaganza</h3>
+          <div class="package-meta">
+            <span class="duration">5 Days / 4 Nights</span>
+            <span class="price">₹45,000 per person</span>
+          </div>
+          <p class="package-description">Experience the glamour and luxury of Dubai with our comprehensive package including desert safari, city tour, and Burj Khalifa visit.</p>
+          <a href="package-details/dubai.html" class="btn btn-secondary">View Itinerary</a>
+          <a href="https://wa.me/919028939352?text=Hi,%20I'm%20interested%20in%20booking%20the%20Dubai%20Package." class="btn btn-primary whatsapp-btn">
+            <img src="assets/icons/whatsapp.svg" alt="WhatsApp" class="whatsapp-icon">
+            Book Now
+          </a>
+        </div>
+      </div>
+
+      <div class="package-card international" id="singapore">
+        <div class="package-image">
+          <img src="https://i.pinimg.com/736x/cb/6b/10/cb6b10b3e8337f9f55de6ab8e8061ac7.jpg" alt="Singapore Package">
+        </div>
+        <div class="package-content">
+          <h3>Singapore & Malaysia</h3>
+          <div class="package-meta">
+            <span class="duration">6 Days / 5 Nights</span>
+            <span class="price">₹55,000 per person</span>
+          </div>
+          <p class="package-description">Explore the beauty of Singapore and Malaysia with visits to Universal Studios, Sentosa Island, and Kuala Lumpur.</p>
+          <a href="package-details/singapore.html" class="btn btn-secondary">View Itinerary</a>
+          <a href="https://wa.me/919028939352?text=Hi,%20I'm%20interested%20in%20booking%20the%20Singapore%20%26%20Malaysia%20Package." class="btn btn-primary whatsapp-btn">
+            <img src="assets/icons/whatsapp.svg" alt="WhatsApp" class="whatsapp-icon">
+            Book Now
+          </a>
+        </div>
+      </div>
+
+      <div class="package-card international honeymoon" id="europe">
+        <div class="package-image">
+          <img src="https://i.pinimg.com/736x/c4/ab/e9/c4abe9781f9011d2c17cdba41eb886ae.jpg" alt="Europe Package">
+        </div>
+        <div class="package-content">
+          <h3>European Dream</h3>
+          <div class="package-meta">
+            <span class="duration">10 Days / 9 Nights</span>
+            <span class="price">₹125,000 per person</span>
+          </div>
+          <p class="package-description">A grand tour of Europe covering Paris, Switzerland, Italy, and more with guided tours and premium accommodations.</p>
+          <a href="package-details/europe.html" class="btn btn-secondary">View Itinerary</a>
+          <a href="https://wa.me/919028939352?text=Hi,%20I'm%20interested%20in%20booking%20the%20European%20Dream%20Package." class="btn btn-primary whatsapp-btn">
+            <img src="assets/icons/whatsapp.svg" alt="WhatsApp" class="whatsapp-icon">
+            Book Now
+          </a>
+        </div>
+      </div>
+
+      <div class="package-card international" id="thailand">
+        <div class="package-image">
+          <img src="https://i.pinimg.com/736x/cd/2e/09/cd2e09bc7d30d01bd969b2d64b3227c4.jpg" alt="Thailand Package">
+        </div>
+        <div class="package-content">
+          <h3>Thailand Explorer</h3>
+          <div class="package-meta">
+            <span class="duration">7 Days / 6 Nights</span>
+            <span class="price">₹40,000 per person</span>
+          </div>
+          <p class="package-description">Discover the beaches of Phuket, the vibrant streets of Bangkok, and the cultural wonders of Pattaya.</p>
+          <a href="package-details/thailand.html" class="btn btn-secondary">View Itinerary</a>
+          <a href="https://wa.me/919028939352?text=Hi,%20I'm%20interested%20in%20booking%20the%20Thailand%20Explorer%20Package." class="btn btn-primary whatsapp-btn">
+            <img src="assets/icons/whatsapp.svg" alt="WhatsApp" class="whatsapp-icon">
+            Book Now
+          </a>
+        </div>
+      </div>
+
+      <div class="package-card domestic" id="kerala">
+        <div class="package-image">
+          <img src="https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg" alt="Kerala Package">
+        </div>
+        <div class="package-content">
+          <h3>Kerala Backwaters</h3>
+          <div class="package-meta">
+            <span class="duration">5 Days / 4 Nights</span>
+            <span class="price">₹25,000 per person</span>
+          </div>
+          <p class="package-description">Experience the serene backwaters, lush tea plantations, and pristine beaches of God's own country.</p>
+          <a href="package-details/kerala.html" class="btn btn-secondary">View Itinerary</a>
+          <a href="https://wa.me/919028939352?text=Hi,%20I'm%20interested%20in%20booking%20the%20Kerala%20Backwaters%20Package." class="btn btn-primary whatsapp-btn">
+            <img src="assets/icons/whatsapp.svg" alt="WhatsApp" class="whatsapp-icon">
+            Book Now
+          </a>
+        </div>
+      </div>
+
+      <div class="package-card domestic pilgrimage" id="varanasi">
+        <div class="package-image">
+          <img src="https://i.pinimg.com/736x/72/51/c4/7251c4c13a05204205e90e0350e2a56f.jpg" alt="Varanasi Package">
+        </div>
+        <div class="package-content">
+          <h3>Kashmir Package</h3>
+          <div class="package-meta">
+            <span class="duration">7 Days / 6 Nights</span>
+            <span class="price">₹18,000 per person</span>
+          </div>
+          <p class="package-description">Immerse yourself in the spirituality of Varanasi with Ganga Aarti, temple visits, and boat rides on the holy river.</p>
+          <a href="package-details/varanasi.html" class="btn btn-secondary">View Itinerary</a>
+          <a href="https://wa.me/919028939352?text=Hi,%20I'm%20interested%20in%20booking%20the%20Spiritual%20Varanasi%20Package." class="btn btn-primary whatsapp-btn">
+            <img src="assets/icons/whatsapp.svg" alt="WhatsApp" class="whatsapp-icon">
+            Book Now
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="custom-package container">
+      <div class="custom-package-content">
+        <h2>Looking for a Customized Package?</h2>
+        <p>We can create tailor-made tours based on your preferences, budget, and travel dates.</p>
+        <a href="https://wa.me/919028939352?text=Hi,%20I'm%20interested%20in%20a%20customized%20tour%20package." class="btn btn-primary whatsapp-btn">
+          <img src="assets/icons/whatsapp.svg" alt="WhatsApp" class="whatsapp-icon">
+          Request Custom Package
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-logo">
+          <h3>Qutbi Tours & Holidays</h3>
+          <p>Established 1998</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="packages.html">Packages</a></li>
+              <li><a href="visa.html">Visa</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Popular Packages</h4>
+            <ul>
+              <li><a href="packages.html#dubai">Dubai</a></li>
+              <li><a href="packages.html#singapore">Singapore</a></li>
+              <li><a href="packages.html#europe">Europe</a></li>
+              <li><a href="packages.html#thailand">Thailand</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact Info</h4>
+            <ul class="contact-info">
+              <li>
+                <span>Phone:</span>
+                <a href="tel:+919028939352">+91 9028939352</a>
+              </li>
+              <li>
+                <span>WhatsApp:</span>
+                <a href="https://wa.me/919028939352">+91 9028939352</a>
+              </li>
+              <li>
+                <span>Email:</span>
+                <a href="mailto:qtholidays@gmail.com">qtholidays@gmail.com</a>
+              </li>
+              <li>
+                <span>Address:</span>
+                <address>Mumbai Naka, Bhabha Nagar, Nashik</address>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Qutbi Tours & Holidays. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/packages.js"></script>
+</body>
+</html>
